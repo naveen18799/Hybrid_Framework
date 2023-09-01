@@ -23,8 +23,8 @@ public class Arthur {
         Thread.sleep(2000);
 
         List<WebElement> elements = new ArrayList<>();
-        elements.add(driver.findElement(By.xpath("//span[text()='Downloads']")));
-        elements.add(driver.findElement(By.xpath("//span[text()='Documentation']")));
+       // elements.add(driver.findElement(By.xpath("//span[text()='Downloads']")));
+       // elements.add(driver.findElement(By.xpath("//span[text()='Documentation']")));
         elements.add(driver.findElement(By.xpath("//span[text()='Projects']")));
         elements.add(driver.findElement(By.xpath("//span[text()='Support']")));
         elements.add(driver.findElement(By.xpath("//span[text()='Blog']")));
