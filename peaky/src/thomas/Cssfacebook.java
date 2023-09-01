@@ -12,8 +12,8 @@ public class Cssfacebook {
 		 driver.get("https://www.facebook.com/");
 		 Thread.sleep(2000);
 		 driver.findElement(By.cssSelector("input[id='email']")).sendKeys("9790527052");
-		 Thread.sleep(2000);
-		 driver.findElement(By.cssSelector("input[id='pass']")).sendKeys("n.j.v.k");
+		 //Thread.sleep(2000);
+		 //driver.findElement(By.cssSelector("input[id='pass']")).sendKeys("n.j.v.k");
 		 Thread.sleep(2000);
 		 driver.findElement(By.cssSelector("button[name='login']")).click();
 		 Thread.sleep(2000);
